@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url('reg.png');
+    background-image: url(images/reg.png);
     background-position: center;
     background-size:auto;
     font-family: sans-serif;
