@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="styleeee.css">
+</head>
+<body>
+    <div class="regf"><h1>REGISTATION FORM</h1></div>
+    <div class="main">
+    <form> 
+        <div id="nam">
+        <h2 class="NAME">NAME:</h2>
+        <input class="firstname" type="text" name="fname"><br>
+        <label class="fname">First name:</label>
+        <input class="lastname" type="text" name="lname">
+        <label class="lname">Last name:</label> 
+        </div>
+
+        <h2 class="NAME">Nationality :</h2>
+        <input class="cname" type="text" name="cname">
+        <br>
+
+        <h2 class="NAME">EMAIL:</h2>
+        <input class="email" type="email" name="email"><br>
+        <label class="mail">Enter Your Email</label> 
+        <br>
+ 
+        <h2 class="NAME">Phone :</h2>
+        <input class="code" type="tel" name="area_code">
+        <label class="area-code">Area Code</label><br>
+        <input class="phone" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+        <h2 class="NAME">Placecs you want to visit :</h2>
+        <select class="Option" name="subject">
+        <option disabled="disabled" selected="selected">--Choose Option</option>
+        <option>KOLKATA</option>
+        <option>MUMBAI</option>
+        <option>DEHLI</option>
+        <option>KERALA</option>
+        <option>KASHMIR</option>
+        </select> 
+
+        <h2 id="Coustomer">Are You Indian?</h2>
+        <input class="radio-one" type="radio" name="gender">Yes
+        <input class="radio-two" type="radio" name="gender">No
+
+        <br><br>
+        <button class="submit">Register</button>
+      </form>
+    </div>
+</body>
+</html>
